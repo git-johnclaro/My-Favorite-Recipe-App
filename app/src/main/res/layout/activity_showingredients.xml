@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".GoBackToHome">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="259dp"
+                android:src="@drawable/adobo">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="Adobo"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="Ingredients:\n* 2 lbs (900 g) chicken thighs or drumsticks\n* 1/2 cup soy sauce\n* 1/2 cup vinegar (white vinegar or cane vinegar)\n* 1/2 cup water\n* 1 onion, chopped\n* 6 cloves garlic, minced\n* 2 bay leaves\n* 1 tsp black peppercorns\n* 1 tbsp sugar (optional, for a hint of sweetness)\n* 2 tbsp cooking oil\n* 1/2 tsp ground black pepper\n* 1-2 potatoes, peeled and quartered (optional)">
+            </TextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Back"
+                android:onClick="Back"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

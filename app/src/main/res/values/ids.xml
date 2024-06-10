@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button_recipe1" type="id" />
+    <item name="button_recipe2" type="id" />
+    <item name="button_recipe3" type="id" />
+    <item name="button_recipe4" type="id" />
+    <item name="button_recipe5" type="id" />
+    <item name="etRecipeName" type="id" />
+    <item name="etTime" type="id" />
+    <item name="etCookingTime" type="id" />
+    <item name="etServings" type="id" />
+    <item name="etIngredients" type="id" />
+    <item name="btnSubmit" type="id" />
+    <item name="btnDelete" type="id" />
+    <item name="btnList" type="id" />
+    <item name="btnUpdate" type="id" />
+    <item name="main" type="id" />
+</resources>
